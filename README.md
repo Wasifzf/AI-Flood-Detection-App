@@ -11,35 +11,22 @@ This project uses deep learning for automated flood detection and segmentation f
 ---
 
 ## 📂 Project Structure
-
+```
 AI-Flood-Detection/
-
 ├── classification/
-
 │ ├── main.py
-
 │ ├── model.py # CNN for flood classification
-
 │ └── weights/ # Pretrained classification weights downloadable 
-
 ├── segmentation/
-
 │ ├── main.py
-
 │ ├── model.py # U-Net model architecture
-
 │ ├── mask.py # Flood mask prediction
-
 │ └── weights/ # Pretrained segmentation weights, downloaded via drive link and creates directory 
-
 ├── app.py # Streamlit app
-
 ├── README.md # Project overview
-
 ├── .gitignore # Ignore large files
-
 ├── requirements.txt # Python dependencies
-
+```
 
 ---
 
